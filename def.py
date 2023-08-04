@@ -26,11 +26,11 @@
 # mmin(nums)
 
 # #4
-# def mmax(a):
-#     max_num=a[0]
-#     for el in a:
-#         if el > max_num:
-#             max_num=el
-#     print (max_num)
-# nums=[2,5,6,7,8,1]
-# mmax(nums)
+def mmax(a):
+    max_num=a[0]
+    for el in a:
+        if el > max_num:
+            max_num=el
+    print (max_num)
+nums=[2,5,6,7,8,1,]
+mmax(nums)
